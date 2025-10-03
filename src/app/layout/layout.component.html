@@ -1,0 +1,13 @@
+<div class="min-h-screen flex">
+  <aside class="w-64 bg-gray-800 text-white p-4">
+    <h3 class="text-lg font-bold mb-4">Practice Tests</h3>
+    <nav class="flex flex-col gap-2">
+      <a routerLink="/todos" class="p-2 rounded hover:bg-gray-700">TODOs</a>
+      <a routerLink="/weather" class="p-2 rounded hover:bg-gray-700">Weather</a>
+      <a routerLink="/map" class="p-2 rounded hover:bg-gray-700">Map & Routing</a>
+    </nav>
+  </aside>
+  <main class="flex-1 p-6 bg-gray-100">
+    <router-outlet></router-outlet>
+  </main>
+</div>
